@@ -1,0 +1,28 @@
+Command line:
+   VGA_synchronization_tf_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50068
+
+Sun Apr 15 23:45:50 2018
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 1038.08 Meg
+
+ Total Signals          : 47
+ Total Nets             : 96
+ Total Signal Drivers   : 26
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 37
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 248
+
+ Total Simulation Time: 2.39063 sec
+
+ Current Memory Usage: 880.796 Meg
+
+Sun Apr 15 23:48:34 2018
+
