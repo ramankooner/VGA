@@ -1,0 +1,5 @@
+verilog work "vga_synchronization.v"
+verilog work "pixel_generation.v"
+verilog work "VGA_controller.v"
+verilog work "VGA_synchronization_tf.v"
+verilog work "C:/Users/Public/14.7/ISE_DS/ISE//verilog/src/glbl.v"

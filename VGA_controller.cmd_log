@@ -1,0 +1,95 @@
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.xst" -ofn "C:/Users/Sandeep Kooner/Desktop/360Labs/Project3VGA/VGA_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Sandeep Kooner/Downloads/nexys4ddr_master(3).ucf" -p xc7a100t-csg324-3 "VGA_controller.ngc" VGA_controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_controller_map.ncd VGA_controller.ngd VGA_controller.pcf 
+par -w -intstyle ise -ol high -mt off VGA_controller_map.ncd VGA_controller.ncd VGA_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_controller.twx VGA_controller.ncd -o VGA_controller.twr VGA_controller.pcf 
+bitgen -intstyle ise -f VGA_controller.ut VGA_controller.ncd 
